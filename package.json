@@ -1,14 +1,18 @@
 {
   "name": "vulnerable-app",
-  "version": "0.1.0",
-  "description": "Intentionally vulnerable app for DevSecOps Lab 04 (SAST). Academic use only.",
+  "version": "0.2.0",
+  "description": "Remediated app for DevSecOps Lab 04 (SAST). Academic use only.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "4.17.1",
+    "express": "4.21.2",
     "mysql": "2.18.1",
-    "lodash": "4.17.4"
+    "lodash": "4.17.21",
+    "bcrypt": "5.1.1",
+    "dotenv": "16.4.5",
+    "helmet": "7.1.0",
+    "express-rate-limit": "7.4.1"
   }
 }
